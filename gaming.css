@@ -223,7 +223,6 @@ margin-bottom: 0;
 .games:hover{
     border: 2px solid #FF42A5;
     font-size: 1rem;
-    font-weight: 600;
     border-radius: 50px;
     background: #FFF;
     text-align: center;
@@ -545,6 +544,7 @@ text-decoration: none;
         padding-left: 0;
         margin-top: -60px;
         padding: 0 100px;
+        margin-bottom: 20px;
     }  
     .games{
         margin: 0;
