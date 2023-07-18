@@ -163,6 +163,13 @@ margin-bottom: 0;
     margin: 0 30px;
 }
 /* play instantly styles*/
+.play-instantly{
+    display: flex;
+}
+.play-instantly-content {
+    margin-top:150px ;
+    margin-left: 200px;
+}
 .play-instantly-content h6{
     align-items: center;
     font-size: 48px;
@@ -178,7 +185,13 @@ margin-bottom: 0;
 }
 .play-instantly-img{
    
-    
+    margin-top:50px ;
+    margin-left: 270px;
+}
+.play-instantly-img .img2{
+    position: relative;
+    top: -240px;
+    right: 170px;
 }
 
 /* for mobile responsive */
