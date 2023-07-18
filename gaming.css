@@ -68,6 +68,7 @@ nav{
    padding: 0 240px;
    height: 1000px;
    background: #FFF;
+   margin-bottom: 0;
 
 }
 .header-content{
@@ -127,6 +128,39 @@ margin-bottom: 0;
 }
 .header-img{
     margin-left: 400px;
+}
+/* online games section */
+.online-games{
+    text-align: center;
+    margin-top:-300px;
+    
+}
+.online-games h6{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+.online-games h6 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.online-games p{
+    margin-bottom: 60px;
+}
+.online-games-card{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 240px;
+    justify-content: space-evenly;
+
+}
+.games-card{
+    margin: 0 30px;
 }
 
 /* for mobile responsive */
