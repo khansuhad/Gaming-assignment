@@ -162,6 +162,24 @@ margin-bottom: 0;
 .games-card{
     margin: 0 30px;
 }
+/* play instantly styles*/
+.play-instantly-content h6{
+    align-items: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+.play-instantly-content h6 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instantly-img{
+   
+    
+}
 
 /* for mobile responsive */
 @media screen and (max-width:576px) {
