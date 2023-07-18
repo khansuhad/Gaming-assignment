@@ -2,6 +2,12 @@
 *{
    font-family: 'Work Sans', sans-serif;
 }
+.p-primary{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
 /* nav start */
 nav{
     width: 100%;
@@ -56,6 +62,73 @@ nav{
     margin-top: -20px;
  
 }
+/* header banner section */
+.header-section{
+    display: flex;
+   padding: 0 240px;
+   height: 1000px;
+   background: #FFF;
+
+}
+.header-content{
+   margin-top: 120px;
+    
+}
+.header-title{
+    color: #0B0223;
+text-align: center;
+font-size: 3rem;
+font-weight: 600;
+text-transform: uppercase;
+margin-bottom: 0;
+
+}
+.header-goat{
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.header-btn{
+    display: flex;
+}
+.btn-primary{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    
+    
+}
+.header-btn2{
+   
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 30px;
+   
+
+}
+.header-img{
+    margin-left: 400px;
+}
+
 /* for mobile responsive */
 @media screen and (max-width:576px) {
 
