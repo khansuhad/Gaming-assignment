@@ -313,10 +313,27 @@ margin-bottom: 0;
     }
     /* games mode style */
     .games-mode{
-        grid-template-columns: repeat(3,1fr);
-        margin-left: 0;
-        padding-left: 0;
+        width: 100%;
+        grid-template-columns:repeat(2,1fr) ;
+        margin: 0;
+        padding: 0;
+       
     }
+    .games{
+        margin: 0;
+        width: 150px;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+    .games img{
+        width: 30px;
+        height: 30px;
+    }
+    .games a{
+        font-size: smaller;
+    }
+   
+    
 }
 /* for tablet responsive */
 @media screen and (min-width:576px) and (max-width:768px) {
@@ -398,5 +415,25 @@ margin-bottom: 0;
         width: 35%;
 
     }
-    
+    /* games mode  */
+    .games-mode{
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: -60px;
+        padding: 0 100px;
+    }  
+    .games{
+        margin: 0;
+        width: 150px;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+    .games img{
+        width: 40px;
+        height: 40px;
+    }
+    .games a{
+        font-size:0.8rem;
+    }  
 }
