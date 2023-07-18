@@ -200,7 +200,8 @@ margin-bottom: 0;
     nav ,
     .nav-items ul,
     .header-section,
-    .online-games-card
+    .online-games-card,
+    .play-instantly
     {
         flex-direction: column;
     }
@@ -243,7 +244,32 @@ margin-bottom: 0;
     .online-games-card{
         padding: 0;
     }
-    
+    /* play instantly styles */
+    .play-instantly{
+        margin-top: -190px;
+    }
+    .play-instantly-content{
+        margin-left: 0;
+        padding:0 20px;
+
+    }
+    .play-instantly-img{
+   
+        margin-top:50px ;
+        margin-left:0px;
+    }
+    .play-instantly-img img{
+        width: 75%;
+        margin-left: 52px;
+    }
+    .play-instantly-img .img2{
+        position: relative;
+        top: -80px;
+        right: 30px;
+        height: 140.083px;
+        width: 30%;
+
+    }
 }
 /* for tablet responsive */
 @media screen and (min-width:576px) and (max-width:768px) {
@@ -251,7 +277,9 @@ margin-bottom: 0;
     nav ,
     .nav-items ul,
     .header-section,
-    .online-games-card
+    .online-games-card,
+    .play-instantly
+   
     {
         flex-direction: column;
     }
@@ -296,6 +324,32 @@ margin-bottom: 0;
     .online-games-card{
         padding: 0;
     }
-    
+    /* play instantly styles */
+    .play-instantly{
+        margin-top: -190px;
+    }
+    .play-instantly-content{
+        margin-left: 0;
+        padding:0 20px;
+        text-align: center;
+
+    }
+    .play-instantly-img{
+   
+        margin-top:50px ;
+        margin-left:0px;
+    }
+    .play-instantly-img img{
+        width: 75%;
+        margin-left:100px;
+    }
+    .play-instantly-img .img2{
+        position: relative;
+        top: -170px;
+        right: 60px;
+        height: 260.083px;
+        width: 35%;
+
+    }
     
 }
