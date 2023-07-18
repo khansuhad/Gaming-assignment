@@ -168,7 +168,8 @@ margin-bottom: 0;
 
     nav ,
     .nav-items ul,
-    .header-section
+    .header-section,
+    .online-games-card
     {
         flex-direction: column;
     }
@@ -204,6 +205,13 @@ margin-bottom: 0;
     .header-content{
         margin-top: 0;
     }
+    /* online-games */
+    .online-games{
+        margin-top: -180px;
+    }
+    .online-games-card{
+        padding: 0;
+    }
     
 }
 /* for tablet responsive */
@@ -211,7 +219,8 @@ margin-bottom: 0;
 
     nav ,
     .nav-items ul,
-    .header-section
+    .header-section,
+    .online-games-card
     {
         flex-direction: column;
     }
@@ -249,7 +258,13 @@ margin-bottom: 0;
         justify-content: center;
         
     }
-   
+       /*online-games  */
+  .online-games{
+    margin-top: 30px;
+  }
+    .online-games-card{
+        padding: 0;
+    }
     
     
 }
