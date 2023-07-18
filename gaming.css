@@ -193,6 +193,47 @@ margin-bottom: 0;
     top: -240px;
     right: 170px;
 }
+/* games mode styles */
+.games-mode{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 0 250px;
+}
+.games{
+    display: flex;
+    align-items:center ;
+    border-radius: 50px;
+    background: #FFF;
+    width: 281px;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: #0B0223;
+   
+}
+.games a{
+    margin-top: -20px;
+    text-decoration: none;
+    color: #0B0223;
+}
+.games:hover{
+    border: 2px solid #FF42A5;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+
+    
+}
+.games img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
 
 /* for mobile responsive */
 @media screen and (max-width:576px) {
@@ -269,6 +310,12 @@ margin-bottom: 0;
         height: 140.083px;
         width: 30%;
 
+    }
+    /* games mode style */
+    .games-mode{
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 0;
+        padding-left: 0;
     }
 }
 /* for tablet responsive */
