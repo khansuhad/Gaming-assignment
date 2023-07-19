@@ -62,15 +62,14 @@ nav{
 /* header banner section */
 .header-section{
     display: flex;
-   padding: 0 240px;
-   height: 1000px;
-   background: #FFF;
-   margin-bottom: 0;
-
+    justify-content: space-between;
+    align-items: center;
+   padding: 0 10% 0 0;
 }
 .header-content{
-   margin-top: 120px;
-    
+    background-image: url("images/Group\ 14.png");
+    background-size: contain;
+    padding: 10%;
 }
 .header-title{
     color: #0B0223;
@@ -78,12 +77,12 @@ text-align: center;
 font-size: 3rem;
 font-weight: 600;
 text-transform: uppercase;
-margin-bottom: 0;
+margin: 0;
 
 }
 .header-goat{
     text-align: center;
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -103,10 +102,7 @@ margin-bottom: 0;
     color: #FFF;
     font-size: 1rem;
     font-weight: 600;
-    text-transform: uppercase;
-
-    
-    
+    text-transform: uppercase;   
 }
 .header-btn2{
    
@@ -124,7 +120,7 @@ margin-bottom: 0;
 
 }
 .header-img{
-    margin-left: 400px;
+    width: 500px;
 }
 /* online games section */
 .online-games{
@@ -316,11 +312,14 @@ text-decoration: none;
 
     nav ,
     .nav-items ul,
-    .header-section,
     .online-games-card,
     .play-instantly
     {
         flex-direction: column;
+    }
+    
+    .header-section{
+        flex-direction: column-reverse;
     }
     .nav-logo{
         margin:20px 0px;
@@ -332,20 +331,8 @@ text-decoration: none;
         margin-top: 20px;
     }
     /* header banner section */
-    .header-section{
-        padding: 10px;
-        margin-top: 0;
-    }
-    .header-img {
-        margin: 0px;
-    
-    }
-    .header-img img{
-        width: 376px;
-        margin-top: 20px;
-    }
-    .header-content{
-        margin-top: 0;
+    .header-img{
+        width: 300px;
     }
     /* online-games */
     .online-games{
@@ -450,10 +437,13 @@ text-decoration: none;
 @media screen and (min-width:576px) and (max-width:768px) {
 
     nav ,
-    .header-section,
     .online-games-card,
     .play-instantly{
         flex-direction: column;
+    }
+    
+    .header-section{
+        flex-direction: column-reverse;
     }
     .nav-logo{
         margin:20px 0px;
