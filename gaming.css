@@ -11,21 +11,19 @@
 
 /* nav start */
 nav{
-    width: 100%;
-    background-color: #fff;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding:0 10% ;
     align-items: center;
 }
 .nav-logo{
     display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 10px;
     
-}
-.logo-img{
-    margin-left:260px ;
-    margin-right: 20px;
-    margin-top: 10px;
 }
 .logo-title{
     text-align: center;
@@ -38,9 +36,8 @@ nav{
 }
 .nav-items ul{
     display: flex;
-    margin-right:70px ;
-
-  
+    justify-content: center;
+    align-items: center;
 }
 .nav-items ul li{
     list-style: none;
@@ -60,7 +57,6 @@ nav{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);  
     padding:18px 24px;
-    margin-top: -20px;
  
 }
 /* header banner section */
@@ -326,21 +322,14 @@ text-decoration: none;
     {
         flex-direction: column;
     }
-    .nav{
-        margin-bottom: 0;
-    }
     .nav-logo{
-        text-align: center;
-        align-items: center;
+        margin:20px 0px;
     }
-    .logo-img{
-        margin: 20px;
+    .nav-items li{
+        margin-bottom: 10px;
     }
-    .nav-items  ul li div {
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin: 10px 0;
+    .nav-follow-us{
+        margin-top: 20px;
     }
     /* header banner section */
     .header-section{
@@ -461,26 +450,13 @@ text-decoration: none;
 @media screen and (min-width:576px) and (max-width:768px) {
 
     nav ,
-    .nav-items ul,
     .header-section,
     .online-games-card,
-    .play-instantly
-   
-    {
+    .play-instantly{
         flex-direction: column;
     }
     .nav-logo{
-        text-align: center;
-        align-items: center;
-    }
-    .logo-img{
-        margin: 20px;
-    }
-    .nav-items  ul li div {
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin: 10px 0;
+        margin:20px 0px;
     }
      /* header banner section */
      .header-section{
