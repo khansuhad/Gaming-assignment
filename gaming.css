@@ -154,11 +154,15 @@ margin: 0;
 }
 /* play instantly styles*/
 .play-instantly{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 10%;
+    align-content: center;
+    gap: 5%;
+    margin-top: 100px;
 }
 .play-instantly-content {
-    margin-top:150px ;
-    margin-left: 200px;
+    text-align: right;
 }
 .play-instantly-content h6{
     align-items: center;
@@ -173,15 +177,15 @@ margin: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.play-instantly-img{
-   
-    margin-top:50px ;
-    margin-left: 270px;
+
+.play-instantly-img .img1{
+    width: 500px;
+    margin-left: 200px;
 }
 .play-instantly-img .img2{
     position: relative;
     top: -240px;
-    right: 170px;
+
 }
 /* games mode styles */
 .games-mode{
@@ -308,8 +312,7 @@ text-decoration: none;
 @media screen and (max-width:576px) {
 
     nav ,
-    .nav-items ul,
-    .play-instantly
+    .nav-items ul
     {
         flex-direction: column;
     }
@@ -336,30 +339,21 @@ text-decoration: none;
     /* online-games */
     /* play instantly styles */
     .play-instantly{
-        margin-top: -190px;
+        grid-template-columns: 1fr;
     }
-    .play-instantly-content{
-        margin-left: 0;
-        padding:0 20px;
-
+    .play-instantly-content {
+        text-align: center;
     }
-    .play-instantly-img{
-   
-        margin-top:50px ;
-        margin-left:0px;
-    }
-    .play-instantly-img img{
-        width: 75%;
-        margin-left: 52px;
+    .play-instantly-img .img1{
+        width: 300px;
+        margin-left: 80px;
     }
     .play-instantly-img .img2{
         position: relative;
-        top: -80px;
-        right: 30px;
-        height: 140.083px;
-        width: 30%;
-
+        top: -100px;
+        width: 150px;
     }
+
     /* games mode style */
     .games-mode{
         width: 425px;
@@ -429,11 +423,12 @@ text-decoration: none;
 /* for tablet responsive */
 @media screen and (min-width:576px) and (max-width:768px) {
 
-    nav ,
-    .play-instantly{
+    nav {
         flex-direction: column;
     }
-    
+    .online-games{
+        padding: 0 10%;
+    }
     .online-games-card{
         grid-template-columns: repeat(2,1fr);
     }
@@ -473,31 +468,22 @@ text-decoration: none;
     }
     /* play instantly styles */
     .play-instantly{
-        margin-top: -190px;
+        grid-template-columns: 1fr;
     }
-    .play-instantly-content{
-        margin-left: 0;
-        padding:0 20px;
+    .play-instantly-content {
         text-align: center;
-
     }
-    .play-instantly-img{
-   
-        margin-top:50px ;
-        margin-left:0px;
-    }
-    .play-instantly-img img{
-        width: 75%;
-        margin-left:100px;
+    
+    .play-instantly-img .img1{
+        width: 400px;
+        margin-left: 120px;
     }
     .play-instantly-img .img2{
         position: relative;
-        top: -170px;
-        right: 60px;
-        height: 260.083px;
-        width: 35%;
-
+        top: -120px;
+        width: 200px;
     }
+
     /* games mode  */
     .games-mode{
         grid-template-columns: repeat(3,1fr);
