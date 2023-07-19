@@ -309,12 +309,14 @@ text-decoration: none;
 
     nav ,
     .nav-items ul,
-    .online-games-card,
     .play-instantly
     {
         flex-direction: column;
     }
-    
+    .online-games-card{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .header-section{
         flex-direction: column-reverse;
     }
@@ -332,12 +334,6 @@ text-decoration: none;
         width: 300px;
     }
     /* online-games */
-    .online-games{
-        margin-top: -180px;
-    }
-    .online-games-card{
-        padding: 0;
-    }
     /* play instantly styles */
     .play-instantly{
         margin-top: -190px;
@@ -434,11 +430,13 @@ text-decoration: none;
 @media screen and (min-width:576px) and (max-width:768px) {
 
     nav ,
-    .online-games-card,
     .play-instantly{
         flex-direction: column;
     }
     
+    .online-games-card{
+        grid-template-columns: repeat(2,1fr);
+    }
     .header-section{
         flex-direction: column-reverse;
     }
