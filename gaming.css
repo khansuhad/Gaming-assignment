@@ -180,37 +180,35 @@ margin: 0;
 
 .play-instantly-img .img1{
     width: 500px;
-    margin-left: 200px;
+    margin-left: 120px;
 }
 .play-instantly-img .img2{
     position: relative;
-    top: -240px;
+    top: -180px;
+    width: 250px;
 
 }
 /* games mode styles */
 .games-mode{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    padding: 0 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    gap: 10px;
 }
 .games{
     display: flex;
+    justify-self: center;
     align-items:center ;
+    gap: 5px;
     border-radius: 50px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    width: 281px;
-    height: 80px;
-    padding-left: 20px;
-    padding-top: 30px;
-    margin-left: 5px;
-    margin-top: 10px;
     color: #0B0223;
     border: 2px solid white;
-   
+    padding: 5px 30px;
 }
 .games p{
-    margin-top: -20px;
-    text-decoration: none;
     font-size: 1rem;
 }
 .games:hover{
@@ -225,10 +223,8 @@ margin: 0;
 }
 
 .games img{
-    width: 60px;
-    height: 60px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -356,24 +352,20 @@ text-decoration: none;
 
     /* games mode style */
     .games-mode{
-        width: 425px;
-        grid-template-columns:repeat(2,1fr) ;
-        margin: 0;
-        padding: 0;
-       
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     .games{
-        margin: 0;
-        width: 150px;
-        height: 40px;
-        margin-bottom: 5px;
-    }
-    .games img{
-        width: 30px;
-        height: 30px;
+        gap: 1px;
+        padding: 2px 5px;
     }
     .games p{
-        font-size: smaller;
+        font-size: .5rem;
+    }
+    
+    .games img{
+        width: 20px;
+        height: 20px;
     }
     /* footer styles */
     footer{
@@ -486,26 +478,10 @@ text-decoration: none;
 
     /* games mode  */
     .games-mode{
-        grid-template-columns: repeat(3,1fr);
-        margin-left: 0;
-        padding-left: 0;
-        margin-top: -60px;
-        padding: 0 100px;
-        margin-bottom: 20px;
-    }  
-    .games{
-        margin: 0;
-        width: 150px;
-        height: 40px;
-        margin-bottom: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
-    .games img{
-        width: 40px;
-        height: 40px;
-    }
-    .games p{
-        font-size:0.8rem;
-    }  
+
     /* footer */
     footer{
         height: 500px;
